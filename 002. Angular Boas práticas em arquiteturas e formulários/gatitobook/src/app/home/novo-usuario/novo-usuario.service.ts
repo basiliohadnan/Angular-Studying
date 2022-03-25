@@ -13,6 +13,6 @@ export class NovoUsuarioService {
   }
 
   verificaUsuarioExistente(nomeUsuario: string) {
-    return this.http.get(`http//localhost:3000/user/exists/${nomeUsuario}`)
+    return this.http.get(`http://localhost:3000/user/exists/${nomeUsuario}`);
   }
 }
